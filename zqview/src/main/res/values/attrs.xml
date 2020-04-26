@@ -23,6 +23,8 @@
         <attr name="sm_bgColorToSel" format="color" />
         <attr name="sm_textColor" format="color" />
         <attr name="sm_textColorSel" format="color" />
+        <attr name="sm_stroke_color" format="color" />
+        <attr name="sm_stroke_width" format="dimension" />
 
     </declare-styleable>
 

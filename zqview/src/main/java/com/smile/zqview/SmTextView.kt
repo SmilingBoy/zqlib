@@ -29,6 +29,10 @@ class SmTextView : AppCompatTextView {
     private var txtColor = Color.BLACK
     private var txtColorSel = Color.BLACK
 
+    //边框
+    private var strokeColor = 0
+    private var strokeWidth = 0F
+
     private lateinit var bgStateListDrawable: StateListDrawable
     private lateinit var textColorStateList: ColorStateList
 
@@ -74,6 +78,10 @@ class SmTextView : AppCompatTextView {
             //文本color
             txtColor = a.getColor(R.styleable.SmTextView_sm_textColor, colorForState)
             txtColorSel = a.getColor(R.styleable.SmTextView_sm_textColorSel, txtColor)
+
+            //stroke
+            strokeColor = a.getColor(R.styleable.SmTextView_sm_stroke_color, Color.TRANSPARENT)
+            strokeWidth = a.getDimension(R.styleable.SmTextView_sm_stroke_width, 0F)
 
             a.recycle()
         }
@@ -121,6 +129,10 @@ class SmTextView : AppCompatTextView {
         } else {
             bgNormal.setColor(bgColor)
             bgSelect.setColor(bgColorSel)
+        }
+
+        if (strokeWidth > 0) {
+            bgNormal.setStroke(strokeWidth.toInt(), strokeColor)
         }
 
         bgStateListDrawable.addState(STATE_NORMAL, bgNormal)
