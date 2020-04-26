@@ -1,0 +1,3 @@
+rootProject.name='ZqLib'
+include ':app'
+include ':zqview'

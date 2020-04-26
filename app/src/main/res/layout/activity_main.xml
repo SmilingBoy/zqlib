@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.smile.zqview.SmTextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:elevation="0dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        app:sm_autoRound="false"
+        app:sm_bgColor="#0FF"
+        app:sm_bgColorFrom="#FF9800"
+        app:sm_bgColorTo="#FF5722"
+        app:sm_gradient="true"
+        app:sm_gradient_orientation="LEFT_RIGHT"
+        app:sm_roundRadius="10dp" />
+
+</LinearLayout>
