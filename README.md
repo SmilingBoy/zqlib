@@ -18,7 +18,20 @@ sm_textColor | BLACK | 文本色 同textColor
 sm_textColorSel | BLACK | 文本色 选中状态
 
 ## 导入
+* [![](https://jitpack.io/v/SmilingBoy/zqlib.svg)](https://jitpack.io/#SmilingBoy/zqlib)
+```groovy
+allprojects {
+		repositories {
+		
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+dependencies {
+    	 implementation 'com.github.SmilingBoy:zqlib:v1.0'
+}
 
+```
 
 ## 使用
 ```xml
