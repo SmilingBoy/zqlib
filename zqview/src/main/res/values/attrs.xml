@@ -18,8 +18,11 @@
             <enum name="TL_BR" value="7" />
         </attr>
         <attr name="sm_bgColorFrom" format="color" />
+        <attr name="sm_bgColorFromSel" format="color" />
         <attr name="sm_bgColorTo" format="color" />
-
+        <attr name="sm_bgColorToSel" format="color" />
+        <attr name="sm_textColor" format="color" />
+        <attr name="sm_textColorSel" format="color" />
 
     </declare-styleable>
 

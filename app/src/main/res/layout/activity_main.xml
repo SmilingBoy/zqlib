@@ -8,17 +8,23 @@
     tools:context=".MainActivity">
 
     <com.smile.zqview.SmTextView
+        android:id="@+id/tv_sm"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:elevation="0dp"
+        android:elevation="12dp"
         android:gravity="center"
         android:text="Hello World!"
+        android:textColor="#FF0"
         app:sm_autoRound="false"
         app:sm_bgColor="#0FF"
         app:sm_bgColorFrom="#FF9800"
+        app:sm_bgColorFromSel="#090"
         app:sm_bgColorTo="#FF5722"
+        app:sm_bgColorToSel="#900"
+        app:sm_bgColor_sel="#FFFF11"
         app:sm_gradient="true"
         app:sm_gradient_orientation="LEFT_RIGHT"
-        app:sm_roundRadius="10dp" />
+        app:sm_roundRadius="10dp"
+        app:sm_textColorSel="@color/colorPrimary" />
 
 </LinearLayout>
