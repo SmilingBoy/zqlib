@@ -5,8 +5,6 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.dcendents.android-maven'
 
 // 根节点添加
-version = "1.2.3"
-// 根节点添加
 group = "com.github.SmilingBoy"
 
 android {
