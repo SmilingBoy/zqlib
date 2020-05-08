@@ -30,4 +30,5 @@
         app:sm_stroke_width="1dp"
         app:sm_textColorSel="@color/colorPrimary" />
 
+
 </LinearLayout>

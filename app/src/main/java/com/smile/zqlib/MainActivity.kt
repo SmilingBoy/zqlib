@@ -14,5 +14,6 @@ class MainActivity : AppCompatActivity() {
         tv_sm.setOnClickListener {
             tv_sm.isSelected = !tv_sm.isSelected
         }
+
     }
 }
