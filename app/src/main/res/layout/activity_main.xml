@@ -30,5 +30,28 @@
         app:sm_stroke_width="1dp"
         app:sm_textColorSel="@color/colorPrimary" />
 
+    <com.smile.zqview.SmTextView
+        android:id="@+id/tv_sm_to_second"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="跳转"
+        android:textColor="#FF0"
+        app:sm_autoRound="true"
+        app:sm_bgColor="#0FF"
+        app:sm_bgColorFrom="#FFF"
+        app:sm_bgColorFromSel="#090"
+        app:sm_bgColorTo="#000"
+        app:sm_bgColorToSel="#F00"
+        app:sm_bgColor_sel="#FFFF11"
+        app:sm_gradient="true"
+        app:sm_gradient_orientation="TR_BL"
+        app:sm_roundRadius="10dp"
+        app:sm_stroke_color="@color/colorPrimary"
+        app:sm_stroke_width="1dp"
+        app:sm_textColorSel="@color/colorPrimary" />
+
 
 </LinearLayout>
