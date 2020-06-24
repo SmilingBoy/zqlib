@@ -35,7 +35,7 @@ public class SmAutoFillData {
     }
 
     private void autoFillData(Object obj, Field field) {
-
+        boolean fieldAccessible = field.isAccessible();
         field.setAccessible(true);
 
         AutoFillData fieldAnnotation = field.getAnnotation(AutoFillData.class);
@@ -69,6 +69,8 @@ public class SmAutoFillData {
                 }
             }
         }
+
+        field.setAccessible(fieldAccessible);
 
     }
 
